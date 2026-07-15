@@ -3,7 +3,7 @@
 # Licensed under the Apache License, Version 2.0
 
 """
-Senior Seviye: Otonom Araştırma Agent'ı — İnteraktif Demo
+Otonom Araştırma Agent'ı — İnteraktif Demo
 ===========================================================
 
 Bu script, otonom araştırma agent'ını interaktif modda çalıştırır.
@@ -69,7 +69,7 @@ async def run_interactive():
 
     print("\n" + "=" * 65)
     print("  🚀 OTONOM ARAŞTIRMA AGENT'I (ARA)")
-    print("  Google ADK - Senior Seviye Mimari")
+    print("  Google ADK — Otonom Araştırma Agent'ı")
     print("=" * 65)
     print("\n  Bu agent, verdiğiniz konuyu:")
     print("  1. Alt başlıklara böler (Planla)")
