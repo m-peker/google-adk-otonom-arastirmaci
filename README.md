@@ -28,7 +28,7 @@
 6. [Dosya Yapısı](#-dosya-yapısı)
 7. [Teknik Detay](#-teknik-detay)
 8. [Öğrenme Çıktıları](#-öğrenme-çıktıları)
-9. [Seviye Karşılaştırması](#-seviye-karşılaştırması)
+9. [Kaynaklar](#-kaynaklar)
 
 ---
 
@@ -218,39 +218,6 @@ Araştırma başarısız → farklı anahtar kelimeyle tekrar (max 2)
 
 ---
 
-## 🆚 Seviye Karşılaştırması
-
-| Özellik | Simple | Medium | ARA |
-|---------|:------:|:------:|:----------:|
-| Agent oluşturma | ✅ | ✅ | ✅ |
-| Tool kullanımı | ✅ | ✅ | ✅ |
-| Callback'ler | - | ✅ | ✅ |
-| Sub-Agent'lar | - | ✅ | ✅ |
-| Otonom Planlama | - | - | ✅ |
-| Human-in-the-Loop | - | - | ✅ |
-| ReAct Döngüsü | - | - | ✅ |
-| Hata Recovery | - | - | ✅ |
-| Kalite Denetimi | - | - | ✅ |
-| Artifact Üretimi | - | - | ✅ |
-| Modüler Mimari | - | - | ✅ |
-
----
-
-## 🚀 GitHub'a Yükleme
-
-```bash
-git init
-git add .
-git commit -m "🧠 ARA - Autonomous Research Agent (Google ADK)"
-git branch -M main
-git remote add origin https://github.com/KULLANICI/REPO.git
-git push -u origin main
-```
-
-> `.gitignore` `.env` ve `.venv/`'i dışarıda bırakır.
-
----
-
 ## 📖 Kaynaklar
 
 - [ADK Dokümantasyon](https://adk.dev/)
@@ -258,9 +225,3 @@ git push -u origin main
 - [ADK Sub-Agents](https://adk.dev/agents/managed-agents/)
 - [ADK Sessions & Memory](https://adk.dev/sessions/)
 - [ReAct Paper (Yao et al., 2022)](https://arxiv.org/abs/2210.03629)
-
----
-
-<div align="center">
-Made with ❤️ for learning Google ADK
-</div>
