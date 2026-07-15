@@ -12,25 +12,23 @@
 
 ---
 
-## 📖 İçindekiler
-
-1. [Demo](#-demo)
-2. [Genel Bakış](#-genel-bakış)
-3. [Mimari](#-mimari)
-4. [Kurulum](#-kurulum)
-5. [Çalıştırma](#-çalıştırma)
-6. [Örnek Konular](#-örnek-araştırma-konuları)
-7. [Dosya Yapısı](#-dosya-yapısı)
-8. [Teknik Detay](#-teknik-detay)
-9. [Öğrenme Çıktıları](#-öğrenme-çıktıları)
-10. [Seviye Karşılaştırması](#-seviye-karşılaştırması)
-11. [GitHub'a Yükleme](#-githuba-yükleme)
+> Bu repo, **Google Agent Development Kit (ADK)** ile geliştirilmiş başarılı bir demo çalışmasıdır.
+> Karmaşık olmayan, SDK'nın önemli özelliklerini (sub-agent, callback, planlama, HITL) kapsayan,
+> öğretici bir referans projedir.
 
 ---
 
-## 🎬 Demo
+## 📖 İçindekiler
 
-![ARA Demo](images/demo.gif)
+1. [Genel Bakış](#-genel-bakış)
+2. [Mimari](#-mimari)
+3. [Kurulum](#-kurulum)
+4. [Çalıştırma](#-çalıştırma)
+5. [Örnek Konular](#-örnek-araştırma-konuları)
+6. [Dosya Yapısı](#-dosya-yapısı)
+7. [Teknik Detay](#-teknik-detay)
+8. [Öğrenme Çıktıları](#-öğrenme-çıktıları)
+9. [Seviye Karşılaştırması](#-seviye-karşılaştırması)
 
 ---
 
