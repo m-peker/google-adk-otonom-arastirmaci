@@ -50,6 +50,8 @@ Kullanıcının verdiği bir konuyu:
 
 ### Agent Hiyerarşisi
 
+![Agent Mimarisi](images/agent_mimarisi.png)
+
 ```
 ┌─────────────────────────────────────────────────────────┐
 │            ANA ORKESTRATÖR (otonom_arastirmaci)          │
