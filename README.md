@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**Google ADK — Upper-Intermediate / Early Senior Mimari**
+**Google ADK — Otonom Araştırma Agent'ı**
 
 *Otonom Planlama · Sub-Agent Mimarisi · Human-in-the-Loop · Kalite Denetimi*
 
@@ -36,8 +36,8 @@
 
 ## 🎯 Genel Bakış
 
-**ARA (Autonomous Research Agent)**, Google ADK üzerine inşa edilmiş,
-**early-senior** seviye bir otonom araştırma sistemidir.
+**ARA (Autonomous Research Agent)**, Google ADK üzerine inşa edilmiş
+bir otonom araştırma sistemidir.
 
 Kullanıcının verdiği bir konuyu:
 
@@ -222,7 +222,7 @@ Araştırma başarısız → farklı anahtar kelimeyle tekrar (max 2)
 
 ## 🆚 Seviye Karşılaştırması
 
-| Özellik | Simple | Medium | **Senior** |
+| Özellik | Simple | Medium | ARA |
 |---------|:------:|:------:|:----------:|
 | Agent oluşturma | ✅ | ✅ | ✅ |
 | Tool kullanımı | ✅ | ✅ | ✅ |
