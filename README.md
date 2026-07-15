@@ -6,7 +6,7 @@
 
 *Otonom Planlama · Sub-Agent Mimarisi · Human-in-the-Loop · Kalite Denetimi*
 
-![Demo](images/demo.gif)
+<img src="images/demo.gif" alt="Demo" width="600" />
 
 </div>
 
@@ -50,34 +50,7 @@ Kullanıcının verdiği bir konuyu:
 
 ### Agent Hiyerarşisi
 
-![Agent Mimarisi](images/agent_mimarisi.png)
-
-```
-┌─────────────────────────────────────────────────────────┐
-│            ANA ORKESTRATÖR (otonom_arastirmaci)          │
-│                                                         │
-│  🔒 Callback Layer (before/after agent & tool)          │
-│     • Güvenlik filtresi • Tool limiti (max 30)          │
-│     • Detaylı loglama ve metrik toplama                 │
-│                                                         │
-│  ADIM 1: create_research_plan → ✋ Kullanıcı onayı      │
-│                                                         │
-│  ADIM 2: HER alt başlık için:                           │
-│    ┌──────────────────────────┐                         │
-│    │      ARAŞTIRMACI          │                         │
-│    │  search_knowledge()       │                         │
-│    │  save_report_section()    │  ← Araştırır VE rapora  │
-│    └──────────────────────────┘     kaydeder             │
-│                                                         │
-│  ADIM 3: Tüm konular bitince:                           │
-│    ┌──────────────────────────┐                         │
-│    │       DENETÇİ             │                         │
-│    │  get_full_report()        │  ← Kalite kontrol       │
-│    └──────────────────────────┘                         │
-│                                                         │
-│  ADIM 4: get_full_report → SUN                          │
-└─────────────────────────────────────────────────────────┘
-```
+<img src="images/agent_mimarisi.png" alt="Agent Mimarisi" width="600" />
 
 ### Agent Rolleri
 
